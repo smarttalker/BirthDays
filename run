@@ -1,8 +1,8 @@
 #!/usr/bin/env php
 <?php
-include "src/Dates/BirthDays.php";
+include 'src/Dates/BirthDays.php';
 
-$birthDate = "1975-07-05";
+$birthDate = '1975-07-05';
 $days = new \Smarttalker\Dates\BirthDays($birthDate);
 $totalDays = $days->findTotalDays();
 
